@@ -27,6 +27,17 @@ html .footermlinkr {
 html .container-footer {
   background-color: #101a24;
 }
+html #tab-wrapper {
+  border-color: #101a24;
+}
+html #tab-wrapper li.active a,
+html #tab-wrapper li a:hover {
+  border-color: #101a24;
+  background-color: #101a24;
+}
+html #tab-wrapper li a {
+  color: #fff;
+}
 html .navbar-nav > li > .dropdown-menu {
   color: #fff;
   background-color: #101a24;
@@ -214,14 +225,14 @@ html .modal-content .input-group-addon:focus {
   color: #fff;
   opacity: 1;
   background-color: #29333d;
-  border: 1px solid #00000a;
+  border-color: #00000a;
 }
 html .modal-content .input-group-addon {
   border-left: none;
 }
 html .form-control[readonly] {
-  background-color: #3d4c5c;
-  cursor: not-allowed;
+  background-color: #48596b !important;
+  color: #fff !important;
   outline: none;
   box-shadow: none;
 }
@@ -256,6 +267,45 @@ html .bs-callout-danger {
 }
 html #withdrawalConfirmForm > div.modal-body > div:nth-child(8) > div > input {
   background-color: #101a24;
+}
+html #form_Buy input,
+html #form_Sell input,
+html #form_Buy .input-group-addon,
+html #form_Sell .input-group-addon {
+  border: 1px solid #00000a;
+  background-color: #29333d;
+  color: #fff;
+}
+html #form_Buy .input-group-addon,
+html #form_Sell .input-group-addon {
+  border-left: none;
+}
+html #form_Buy button,
+html #form_Sell button {
+  border: 1px solid #00000a;
+}
+html #balance-wrapper input {
+  background-color: #29333d;
+  border: 1px solid #00000a;
+}
+html #balance-wrapper .input-group-btn button,
+html #balance-wrapper .input-group-addon {
+  color: #fff;
+  opacity: 1;
+  background-color: #29333d;
+  border: 1px solid #00000a;
+}
+html #balance-wrapper .input-group-btn button:hover,
+html #balance-wrapper .input-group-addon:hover,
+html #balance-wrapper .input-group-btn button:focus,
+html #balance-wrapper .input-group-addon:focus {
+  color: #fff;
+  opacity: 1;
+  background-color: #29333d;
+  border-color: #00000a;
+}
+html #balance-wrapper .input-group-addon {
+  border-left: none;
 }
 @-moz-keyframes dyn-tr-add-animation-dark {
   from {

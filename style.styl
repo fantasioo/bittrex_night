@@ -29,6 +29,16 @@ html
     background-color: bg1
 
   /* Navigation */
+  #tab-wrapper
+    border-color: bg1
+    li
+      &.active a,
+      a:hover
+        border-color: bg1
+        background-color: bg1
+      a
+        color: text-color
+
   .navbar-nav > li > .dropdown-menu
     color: text-color
     background-color: bg1
@@ -204,13 +214,13 @@ html
         color: text-color
         opacity: 1
         background-color: bg2
-        border: 1px solid table-border
+        border-color: table-border
     .input-group-addon
       border-left: none
 
   .form-control[readonly]
-    background-color: lighten(bg2, 10)
-    cursor: not-allowed
+    background-color: lighten(bg2, 15) !important
+    color: text-color !important
     outline: none
     box-shadow: none;
     &:focus
@@ -238,3 +248,37 @@ html
     background-color: bg2
   #withdrawalConfirmForm > div.modal-body > div:nth-child(8) > div > input
     background-color: bg1
+
+  /* Buy Sell*/
+  #form_Buy,
+  #form_Sell
+    input,
+    .input-group-addon
+      border: 1px solid table-border
+      background-color: bg2
+      color: text-color
+    .input-group-addon
+      border-left: none
+    button
+      border: 1px solid table-border
+
+  /* Wallet */
+  #balance-wrapper
+    input
+      background-color: bg2
+      border: 1px solid table-border
+    .input-group-btn button,
+    .input-group-addon
+      color: text-color
+      opacity: 1
+      background-color: bg2
+      border: 1px solid table-border
+      &:hover, &:focus
+        color: text-color
+        opacity: 1
+        background-color: bg2
+        border-color: table-border
+    .input-group-addon
+      border-left: none
+
+
