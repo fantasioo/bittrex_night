@@ -1,0 +1,15 @@
+{
+  "name": "bittrex_themes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "stylus -w style.styl -o chrome/style.css",
+    "build": "stylus style.styl -o chrome/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylus": "^0.54.5"
+  }
+}

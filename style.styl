@@ -1,0 +1,240 @@
+// variables
+text-color = #fff
+link-color = #FF7700
+hover-color = #631F00
+bg1 = #101A24
+bg2 = #29333d
+table-border = #00000A
+
+html
+  body
+    color: text-color
+    background: bg2
+  h1, h2, h3, h4, h5
+    color: text-color
+  a
+    color: link-color
+    &:hover, &:focus
+      color: lighten(link-color, 10)
+
+  /* Header */
+  .container-header
+    background-color: bg1
+
+  /* Footer */
+  #footmainbkg, .footermlinkl, .footermlinkr
+    background-color: bg1 !important
+
+  .container-footer
+    background-color: bg1
+
+  /* Navigation */
+  .navbar-nav > li > .dropdown-menu
+    color: text-color
+    background-color: bg1
+    a
+      color: text-color
+
+  .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover
+    background-color: bg2
+
+  .menu-wrapper
+    background-color: bg1
+
+  .menu-content
+    color: text-color
+
+  .menu-table tr td
+    border: 1px solid table-border
+    &.odd
+      background-color: bg2
+    &.even
+      background-color: bg1
+
+  .content
+    background-color: bg2
+    color: text-color
+
+  /* Carousel */
+  .container-header
+    background-color: bg1
+
+  .stage, .carousel
+    background-color: bg2
+    color: text-color
+    li
+      background-color: bg2
+
+  .connected-carousels .carousel-stage
+    box-shadow: 0 0 1px table-border
+
+  .connected-carousels .carousel-navigation
+    border: 10px solid bg2
+    box-shadow: 0 0 1px table-border
+    li img
+      border: 5px solid bg2
+
+  /* Table */
+  .table-striped > tbody > tr:nth-of-type(odd)
+    background-color: bg1
+
+  .table-bordered>tbody>tr>td,
+  .table-bordered>tbody>tr>th,
+  .table-bordered>tfoot>tr>td,
+  .table-bordered>tfoot>tr>th,
+  .table-bordered>thead>tr>td,
+  .table-bordered>thead>tr>th,
+  .table-bordered
+    border: 1px solid table-border
+
+  table tr a
+    color: link-color
+    transition: color .2s
+    text-decoration: none
+
+  .table-hover tbody tr:hover > td,
+  .table-hover tbody tr:hover > th,
+  .table-hover tbody tr.even:hover td.sorting_1,
+  .table-hover tbody tr.odd:hover td.sorting_1
+    background-color: hover-color
+
+  .dyn-tr-add {
+    animation: dyn-tr-add-animation-dark 1s !important
+  }
+  @keyframes dyn-tr-add-animation-dark {
+    from {
+      opacity: 0
+    }
+    to {
+      opacity: 1
+    }
+  }
+
+  /* Pagination */
+  .pagination > li > a,
+  .pagination > .disabled > a,
+  .pagination > .active > a
+    color: text-color
+    background-color: bg1
+    border: 1px solid table-border
+    &:hover, &:focus
+      color: text-color
+      border: 1px solid table-border
+
+  .pagination > .active > a,
+  .pagination > .active > a:focus,
+  .pagination > .active > a:hover,
+  .pagination > .active > span,
+  .pagination > .active > span:focus,
+  .pagination > .active > span:hover
+    background-color: bg2
+
+  .pagination > li > a:focus,
+  .pagination > li > a:hover,
+  .pagination > li > span:focus,
+  .pagination > li > span:hover
+    background-color: hover-color
+
+  .pagination > .disabled > a,
+  .pagination > .disabled > a:focus,
+  .pagination > .disabled > a:hover,
+  .pagination > .disabled > span,
+  .pagination > .disabled > span:focus,
+  .pagination > .disabled > span:hover
+    background-color: bg2
+
+  /* Form elements */
+  .form-control, input, select
+    border: 1px solid table-border
+    border-radius: 3px
+    color: text-color
+    background-color: bg1
+
+  /* Status */
+  .well
+    background-color: bg1
+    border: 1px solid table-border
+    color: text-color
+    .table>tbody>tr>td,
+    .table>tbody>tr>th,
+    .table>tfoot>tr>td,
+    .table>tfoot>tr>th,
+    .table>thead>tr>td,
+    .table>thead>tr>th
+      border-top: 1px solid table-border
+
+  /* Api */
+  pre
+    background-color: bg1
+    color: text-color
+    border: 1px solid table-border
+  code
+    background-color: bg1
+    color: text-color
+
+  /* Login */
+  .login-wrapper
+    .logo
+        content: url('https://bittrex.com/Content/img/logos/bittrex-logo-transparent.png') !important
+    .box
+      border: 1px solid table-border
+      background-color: bg1
+      input[type="text"], input[type="password"]
+        background-color: bg2
+        color: text-color
+        border: 1px solid table-border
+        &::placeholder
+          color: darken(text-color, 10)
+      a.forgot
+        color: link-color
+
+  /* Modals */
+  .modal-content
+    background-color: bg2
+    input
+      background-color: bg2
+      border: 1px solid table-border
+    .input-group-btn button,
+    .input-group-addon
+      color: text-color
+      opacity: 1
+      background-color: bg2
+      border: 1px solid table-border
+      &:hover, &:focus
+        color: text-color
+        opacity: 1
+        background-color: bg2
+        border: 1px solid table-border
+    .input-group-addon
+      border-left: none
+
+  .form-control[readonly]
+    background-color: lighten(bg2, 10)
+    cursor: not-allowed
+    outline: none
+    box-shadow: none;
+    &:focus
+      border: 1px solid table-border
+      outline: none
+      box-shadow: none;
+
+  .modal-header
+    border-bottom: 1px solid table-border
+    color: text-color
+  .close
+    color: text-color
+    text-shadow: 0 1px 0 text-color
+    transition: color .5s
+  .panel
+    border: 1px solid table-border
+    background: none
+  .panel-default > .panel-heading
+    color: text-color
+    border-bottom: 1px solid table-border
+    background-color: bg1
+  .panel-default > .panel-body
+    background-color: bg1
+  .bs-callout-danger
+    background-color: bg2
+  #withdrawalConfirmForm > div.modal-body > div:nth-child(8) > div > input
+    background-color: bg1

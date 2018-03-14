@@ -1,0 +1,17 @@
+{
+  "name": "Dark bittrex",
+  "content_scripts": [
+    {
+      "css": ["style.css"],
+      "matches": ["https://bittrex.com/*"]
+    }
+  ],
+  "description": "Night mode bittrex",
+  "icons": {
+    "128": "assets/icon.png",
+    "16": "assets/icon.png",
+    "48": "assets/icon.png"
+  },
+  "manifest_version": 2,
+  "version": "1.0.0"
+}

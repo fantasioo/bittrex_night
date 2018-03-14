@@ -1,0 +1,291 @@
+html body {
+  color: #fff;
+  background: #29333d;
+}
+html h1,
+html h2,
+html h3,
+html h4,
+html h5 {
+  color: #fff;
+}
+html a {
+  color: #f70;
+}
+html a:hover,
+html a:focus {
+  color: #ff9233;
+}
+html .container-header {
+  background-color: #101a24;
+}
+html #footmainbkg,
+html .footermlinkl,
+html .footermlinkr {
+  background-color: #101a24 !important;
+}
+html .container-footer {
+  background-color: #101a24;
+}
+html .navbar-nav > li > .dropdown-menu {
+  color: #fff;
+  background-color: #101a24;
+}
+html .navbar-nav > li > .dropdown-menu a {
+  color: #fff;
+}
+html .dropdown-menu>li>a:focus,
+html .dropdown-menu>li>a:hover {
+  background-color: #29333d;
+}
+html .menu-wrapper {
+  background-color: #101a24;
+}
+html .menu-content {
+  color: #fff;
+}
+html .menu-table tr td {
+  border: 1px solid #00000a;
+}
+html .menu-table tr td.odd {
+  background-color: #29333d;
+}
+html .menu-table tr td.even {
+  background-color: #101a24;
+}
+html .content {
+  background-color: #29333d;
+  color: #fff;
+}
+html .container-header {
+  background-color: #101a24;
+}
+html .stage,
+html .carousel {
+  background-color: #29333d;
+  color: #fff;
+}
+html .stage li,
+html .carousel li {
+  background-color: #29333d;
+}
+html .connected-carousels .carousel-stage {
+  box-shadow: 0 0 1px #00000a;
+}
+html .connected-carousels .carousel-navigation {
+  border: 10px solid #29333d;
+  box-shadow: 0 0 1px #00000a;
+}
+html .connected-carousels .carousel-navigation li img {
+  border: 5px solid #29333d;
+}
+html .table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #101a24;
+}
+html .table-bordered>tbody>tr>td,
+html .table-bordered>tbody>tr>th,
+html .table-bordered>tfoot>tr>td,
+html .table-bordered>tfoot>tr>th,
+html .table-bordered>thead>tr>td,
+html .table-bordered>thead>tr>th,
+html .table-bordered {
+  border: 1px solid #00000a;
+}
+html table tr a {
+  color: #f70;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+html .table-hover tbody tr:hover > td,
+html .table-hover tbody tr:hover > th,
+html .table-hover tbody tr.even:hover td.sorting_1,
+html .table-hover tbody tr.odd:hover td.sorting_1 {
+  background-color: #631f00;
+}
+html .dyn-tr-add {
+  animation: dyn-tr-add-animation-dark 1s !important;
+}
+html .pagination > li > a,
+html .pagination > .disabled > a,
+html .pagination > .active > a {
+  color: #fff;
+  background-color: #101a24;
+  border: 1px solid #00000a;
+}
+html .pagination > li > a:hover,
+html .pagination > .disabled > a:hover,
+html .pagination > .active > a:hover,
+html .pagination > li > a:focus,
+html .pagination > .disabled > a:focus,
+html .pagination > .active > a:focus {
+  color: #fff;
+  border: 1px solid #00000a;
+}
+html .pagination > .active > a,
+html .pagination > .active > a:focus,
+html .pagination > .active > a:hover,
+html .pagination > .active > span,
+html .pagination > .active > span:focus,
+html .pagination > .active > span:hover {
+  background-color: #29333d;
+}
+html .pagination > li > a:focus,
+html .pagination > li > a:hover,
+html .pagination > li > span:focus,
+html .pagination > li > span:hover {
+  background-color: #631f00;
+}
+html .pagination > .disabled > a,
+html .pagination > .disabled > a:focus,
+html .pagination > .disabled > a:hover,
+html .pagination > .disabled > span,
+html .pagination > .disabled > span:focus,
+html .pagination > .disabled > span:hover {
+  background-color: #29333d;
+}
+html .form-control,
+html input,
+html select {
+  border: 1px solid #00000a;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #101a24;
+}
+html .well {
+  background-color: #101a24;
+  border: 1px solid #00000a;
+  color: #fff;
+}
+html .well .table>tbody>tr>td,
+html .well .table>tbody>tr>th,
+html .well .table>tfoot>tr>td,
+html .well .table>tfoot>tr>th,
+html .well .table>thead>tr>td,
+html .well .table>thead>tr>th {
+  border-top: 1px solid #00000a;
+}
+html pre {
+  background-color: #101a24;
+  color: #fff;
+  border: 1px solid #00000a;
+}
+html code {
+  background-color: #101a24;
+  color: #fff;
+}
+html .login-wrapper .logo {
+  content: url("https://bittrex.com/Content/img/logos/bittrex-logo-transparent.png") !important;
+}
+html .login-wrapper .box {
+  border: 1px solid #00000a;
+  background-color: #101a24;
+}
+html .login-wrapper .box input[type="text"],
+html .login-wrapper .box input[type="password"] {
+  background-color: #29333d;
+  color: #fff;
+  border: 1px solid #00000a;
+}
+html .login-wrapper .box input[type="text"]::placeholder,
+html .login-wrapper .box input[type="password"]::placeholder {
+  color: #e6e6e6;
+}
+html .login-wrapper .box a.forgot {
+  color: #f70;
+}
+html .modal-content {
+  background-color: #29333d;
+}
+html .modal-content input {
+  background-color: #29333d;
+  border: 1px solid #00000a;
+}
+html .modal-content .input-group-btn button,
+html .modal-content .input-group-addon {
+  color: #fff;
+  opacity: 1;
+  background-color: #29333d;
+  border: 1px solid #00000a;
+}
+html .modal-content .input-group-btn button:hover,
+html .modal-content .input-group-addon:hover,
+html .modal-content .input-group-btn button:focus,
+html .modal-content .input-group-addon:focus {
+  color: #fff;
+  opacity: 1;
+  background-color: #29333d;
+  border: 1px solid #00000a;
+}
+html .modal-content .input-group-addon {
+  border-left: none;
+}
+html .form-control[readonly] {
+  background-color: #3d4c5c;
+  cursor: not-allowed;
+  outline: none;
+  box-shadow: none;
+}
+html .form-control[readonly]:focus {
+  border: 1px solid #00000a;
+  outline: none;
+  box-shadow: none;
+}
+html .modal-header {
+  border-bottom: 1px solid #00000a;
+  color: #fff;
+}
+html .close {
+  color: #fff;
+  text-shadow: 0 1px 0 #fff;
+  transition: color 0.5s;
+}
+html .panel {
+  border: 1px solid #00000a;
+  background: none;
+}
+html .panel-default > .panel-heading {
+  color: #fff;
+  border-bottom: 1px solid #00000a;
+  background-color: #101a24;
+}
+html .panel-default > .panel-body {
+  background-color: #101a24;
+}
+html .bs-callout-danger {
+  background-color: #29333d;
+}
+html #withdrawalConfirmForm > div.modal-body > div:nth-child(8) > div > input {
+  background-color: #101a24;
+}
+@-moz-keyframes dyn-tr-add-animation-dark {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes dyn-tr-add-animation-dark {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes dyn-tr-add-animation-dark {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes dyn-tr-add-animation-dark {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
